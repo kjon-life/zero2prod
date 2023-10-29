@@ -1,2 +1,20 @@
 /target
-/slides
+
+# developer notes and presentations
+
+# custom files
+custom/
+
+# temp files directories
+cache/
+log/
+*.swp
+.DS_Store
+
+# editor configs
+.vscode
+.idea
+
+# not yet ready for prime time
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
