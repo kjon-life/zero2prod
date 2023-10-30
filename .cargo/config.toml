@@ -1,4 +1,7 @@
-# On MacOS, `brew install llvm` and follow steps in `brew info llvm`
+# On MacOS, `brew install llvm` and follow steps in `brew info llvm` pre-commit hook succeeds with:
+# export PATH="/usr/local/opt/llvm/bin:$PATH"
+# export LDFLAGS="-L/usr/local/opt/llvm/lib"
+# export CPPFLAGS="-I/usr/local/opt/llvm/include"
 [target.x86_64-apple-darwin]
 rustflags = ["-C", "link-arg=-fuse-ld=lld"]
 
